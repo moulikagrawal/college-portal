@@ -1,0 +1,22 @@
+.car-img {
+  height: 500px;
+}
+
+.carousel-indicators {
+  top: 480px;
+}
+
+@media (max-width: 768px) {
+  .car-img {
+    height: 30vh;
+  }
+  .carousel-indicators {
+    top: 28vh;
+  }
+  #IEEEWeek {
+    height: 100vh;
+  }
+  .heading-ieee>h1 {
+      font-size: 2.5rem;
+  }
+}

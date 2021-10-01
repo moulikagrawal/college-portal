@@ -1,0 +1,103 @@
+.modal-backdrop {
+  display: none;
+}
+
+.modal {
+  padding-right: 0px !important;
+}
+
+body.modal-open-noscroll {
+  margin-right: 0 !important;
+  overflow: hidden;
+}
+
+.modal-open-noscroll .navbar-default,
+.modal-open .navbar-default {
+  margin-right: 0 !important;
+}
+
+.modal-header {
+  border-bottom: 2px solid lightgray;
+}
+
+.modal-open[style] {
+  padding-right: 0px !important;
+}
+
+.modal-content {
+  border-radius: 1px;
+  /* width: 100%; */
+}
+
+nav {
+  padding-right: 0px !important;
+}
+
+.bodyEventsModal {
+  padding: 0.85rem;
+}
+
+.titleEventsModal {
+  display: inline-block;
+  height: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* upto modal changes */
+
+.presentation-title {
+  font-size: 6.5rem;
+  font-family: "Merriweather", serif;
+  letter-spacing: 5px;
+}
+
+.containerGallery {
+  /* width: 80%; */
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.imageee:hover {
+  transition: all 0.3s ease-in;
+  filter: brightness(20%);
+}
+
+@media (max-device-width: 768px) {
+  .presentation-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-device-width: 500px) {
+  .titleBrandContainer {
+    width: 95%;
+  }
+  .presentation-title {
+    font-size: 3.3rem;
+  }
+
+  .presentation-subtitle {
+    width: 90%;
+    margin-bottom: 10px;
+    animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
+    font-size: 1.7em;
+    border-right: none;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 24ch;
+    }
+  }
+}
+
+@media (max-device-width: 376px) {
+  .titleBrandContainer {
+    width: 100%;
+  }
+  .presentation-subtitle {
+    font-size: 1.5em;
+  }
+}
